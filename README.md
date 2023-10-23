@@ -7,7 +7,7 @@
 - [ ] Split DataSet in Train, Test, Validation with scikit learn function. 80/10/10
 ## Build Model
 - [ ] Build Siamese Network. Try different architectures (ex: Euclidian_dist+sigmoid).
-## - Train Model
+## Train Model
 - [ ] Train model. Tune parameters.
 ## Evaluate Model
 - [ ] Evaluate model. Accuracy, Precision, Recall, F1-Score.

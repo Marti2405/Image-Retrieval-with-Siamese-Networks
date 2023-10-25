@@ -3,6 +3,7 @@
 # To do:
 - [ ] Keep queries out of the training
 - [ ] Try discretizing the values and doing a softmax at the end of the NN
+- [ ] Do fine-tunning. Keep changing the zero values images and continue training bit by bit with balanced dataset.
 ## Data preprocessing
 - [ ] Function that takes image and returns vector (composed by keypoints)
 - [ ] Function that goes through the matrix (Dataset) and generates image pair in `X_data` and puts the score in `Y_data` (both are .npy arrays).

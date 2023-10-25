@@ -1,6 +1,7 @@
 # Image Retrieval with Siamese Networks
 
 # To do:
+- [ ] Keep queries out of the training
 ## Data preprocessing
 - [ ] Function that takes image and returns vector (composed by keypoints)
 - [ ] Function that goes through the matrix (Dataset) and generates image pair in `X_data` and puts the score in `Y_data` (both are .npy arrays).

@@ -9,9 +9,11 @@ The comprehensive research paper detailing the methodology, experiments, and fin
 The project employs a Siamese Neural Network architecture, incorporating image key points for feature extraction and similarity measurement. The network undergoes comprehensive training using a dataset containing image pairs and corresponding relevance scores. Evaluation metrics such as precision at k and accuracy within a relevance score range are utilized to assess the model's performance.
 
 Image Key-point Extraction:
+
 ![SNN](Images/ORB.png)
 
 Our Siamese Neural Network Model:
+
 ![SNN](Images/SNN.png)
 
 ## Results
@@ -23,9 +25,11 @@ Our Siamese Neural Network Model:
 ### Example:
 
 Image Query:
+
 ![SNN](Images/ex1q.png)
 
 Images Retrieved:
+
 ![SNN](Images/ex1p.png)
 
 ## Conclusion

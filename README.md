@@ -20,9 +20,19 @@ Our Siamese Neural Network Model:
 - The SNN demonstrated an accuracy of 85.07% in classifying relevant images within a relevance score range of 0.01.
 - Manual inspection revealed that between 10 and 50% of the top 10 retrieved images were relevant, while the rest exhibited similar visual features.
 
+### Example:
+
+Image Query:
+![SNN](Images/ex1q.png)
+
+Images Retrieved:
+![SNN](Images/ex1p.png)
+
 ## Conclusion
 
-The results highlight the SNN's effectiveness in accurately identifying relevant images, demonstrating its potential for practical image retrieval applications. However, the model's performance indicates the need for more sophisticated feature extraction techniques to handle nuanced image similarities. Future improvements may involve the integration of advanced feature descriptors and convolutional layers to enhance the model's performance in complex image retrieval scenarios.
+Our exploration of using Siamese Neural Networks (SNNs) with key-point extraction for image retrieval suggests that the complexity introduced by this approach may not be justified by the achieved results. While the SNN demonstrated effectiveness in identifying relevant images, the overall performance indicates a need for simplification.
+
+Moving forward, a more streamlined approach involving a simple SNN with convolutional layers is anticipated to yield superior results. This alternative strategy aims to capitalize on the power of convolutional layers for feature extraction while minimizing unnecessary complexities, offering a promising avenue for improved image retrieval accuracy and efficiency.
 
 ## Repository Files
 - `model.ipynb`: Python notebook script containing the implementation of the Siamese Neural Network and the image retrieval process.
